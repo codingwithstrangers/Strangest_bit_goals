@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+
+body {
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.inside span {
+  	font-family: "Silkscreen", sans-serif;
+    position: relative;
+    left: 220px; /* Move the text 50px to the right */
+    font-size: 30px; /* Adjust the size as needed */
+ 		bottom: -5px;
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: relative; /* Ensure wrapper's children are positioned relative to it */
+}
+
+.e-textgoal {
+  font-family: "Silkscreen", sans-serif; /* Apply Silkscreen font */
+}
+
+.e-current {
+  width: 30px;
+}
+
+.e-bar {
+  width: 100%;
+  height: 50px;
+  background: #cbc;
+  position: relative;
+  border: 2px solid white; /* Add white border */
+  border-radius: 10px; /* Add border radius */
+}
+
+.inside {
+  position: relative;
+  left: 0;
+  top: 0;
+  
+  height: 100%;
+  transition: all 2s ease-in-out;
+  background: linear-gradient(to right, rgb(102, 115, 255), #d70000);
+  border-radius: 10px; /* Match border radius */
+}
+
+.total {
+  font-family: "Silkscreen", sans-serif; /* Apply Silkscreen font */
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 100px;
+  margin-left: 0;
+  width: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Silkscreen", sans-serif; /* Apply Silkscreen font */
+  font-size: 60px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.img-container {
+  z-index: 2; /* Ensure the image is above the e-total */
+ 
+  transform: translate(98%, -25%);
+  transform: scaleX(-1);
+  top: 0; /* Align image with top of parent */
+  left: 50%; /* Adjust this as necessary to align the image correctly */
+}

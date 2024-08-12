@@ -4,33 +4,36 @@
 </div>
 
 <p align="center">
-  <img src="https://imgur.com/hllb6Bc.jpg" alt="Image Description" width="600"/>
+  <img src="https://imgur.com/hllb6Bc.jpg" alt="Image Description" width="400"/>
 </p>
 
 ### Strangest_Bit_Goals
 
-Before we get into the details, a few disclaimers: This is part of my training exercise for a self-paced homework assignment. If you want to use this, feel free!
-
 ### What is This?
 
-This is a template for creating a responsive weather app. The goal is to enter a city and get the weather in Celsius or Fahrenheit.
+This is a template for creating Twitch widget goals. This works for Streamlabs OBS. The goal was put a gif or an icon, on the bar that moves as your actual followes, sub, and etch go up. Feel free to go to my stream and test it out. 
 
 ### Why Did I Do This?
 
-Practice! This was my first weather app, and I did it as a learning exercise.
+Its cool and the visual will make your stream goals standout.
 
 ### How Users Can Use This
 
 **For Users:**
-- Import the project to your system.
-- Open the HTML file in a browser.
-- Done!
-
 **For Programmers:**
 - I used vanilla HTML, CSS, and JS—no frameworks. I know, right?
 - You can replace all images and links.
 - Check the "Bugs" section for any issues I’m aware of.
 - The JS code handles data retrieval and DOM manipulation.
+
+- External Resources: Google Fonts and Font Awesome are imported for fonts and icons.
+- HTML Structure: A progress bar setup with accompanying elements for displaying a goal, current progress, and a related image.
+- CSS: Styling ensures a visually appealing layout with consistent fonts, aligned elements, and smooth progress bar animations.
+- JavaScript: Event listeners handle loading the goal data and updating the display as the current progress changes, with a condition to mark the goal as complete when reached.
+- Triggers when the current amount of bits changes.
+- Updates the current and total bit amounts displayed on the screen.
+- Adjusts the progress bar width to reflect the new percentage of progress.
+- Again, if the goal is met, the text updates to "Complete."
 
 ### Need Help?
 
@@ -44,12 +47,9 @@ Coding with Strangers, aka Heero
 
 ### Features
 
-- [x] Celsius and Fahrenheit options
-- [ ] Responsive Design: Adapts to different screen sizes.
-- [x] Actual weather conditions displayed by images.
-- [ ] Hourly weather updates.
-- [ ] 7-day weather forecast.
-- [x] Vertical and horizontal scroll options.
+- [x] make image change
+- [x] make bar color change
+- [x] make the text updte after goal reached
 
 ### What You Will Need
 
@@ -57,16 +57,13 @@ Files Included:
 - `index.html` – Main HTML file for the login template.
 - `styles.css` – CSS file for styling the template.
 - `script.js` – JavaScript file for interactive features and animations.
-- `gitignore` - was going to make backend server to story keys, but that was out of scope
+
 
 ### Prerequisites
 
 Before running the project, ensure you have the following:
-- A modern web browser (e.g., Google Chrome, Mozilla Firefox, Safari).
+- SLOBS
+- twitch, youtube or facebook (gross)
 
 ### Bugs
-
-Feel free to submit issues, fork the repository, and make pull requests. Your contributions are welcome! Since I might not address these bugs myself, I’ll probably try to rebuild this in React. Here are the known bugs:
-
-- [ ] API call out to weather source not used, due to financial requirements, feel free to use free weath api and finish
-- [ ] I am using grid to make the app responisve but the scope was for the API the media@ are setup if you want to use them
+Pretty neat any suggestion let me know
